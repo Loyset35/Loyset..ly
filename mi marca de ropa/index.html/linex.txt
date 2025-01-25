@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loyset</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5dc; /* Fondo beige */
+            color: #333;
+        }
+        header {
+            background-color:rgb(255, 218, 116);
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header img {
+            max-width: 200px;
+            height: auto;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            background-color: #3700b3;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 2rem;
+        }
+        footer {
+            text-align: center;
+            background-color: #6200ea;
+            color: white;
+            padding: 1rem 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .card {
+            background: white;
+            padding: 1rem;
+            margin: 1rem auto;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            max-width: 400px;
+            text-align: center;
+        }
+        .card h2 {
+            margin: 0.5rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo de Loyset">
+        <h1>Bienvenidos a Loyset</h1>
+    </header>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Servicios</a>
+        <a href="#">Acerca de</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <main>
+        <section class="card">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una empresa dedicada a proporcionar soluciones innovadoras para tus necesidades.</p>
+        </section>
+        <section class="card">
+            <h2>Servicios</h2>
+            <p>Ofrecemos diseño web, marketing digital y desarrollo de software a medida.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Loyset. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
